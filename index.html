@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUCK TALES</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/panel.css">
+  <link rel="stylesheet" href="styles/popup.css">
+  <link rel="stylesheet" href="styles/finish.css">
+  <script defer src="js/js.js"></script>
+  <script defer src="js/stare_game.js"></script>
+
+</head>
+<body>
+  <section class="popup">
+  <div class="img_popup">
+    <div class="wrapp_popup">
+      <h1 class="text_popup">collect  coins and free our heroes</h1>
+      <div class="start-game">start  the game</div>
+    </div>
+  </div>
+  </section>
+<section class="page">
+  <header class="header flex_row">
+    <div class="header-wrapp_money flex_row ">
+      <img class="header_price" src="./img/1.png" alt="">
+      <span class="counter">0</span>
+    </div>
+    <span class="extra-money">
+      <img class="extra_" src="./img/1.png" alt="">
+      <p>find extra maney</p>
+      <div class="wrap-timer">
+        <div class="timer">5</div>
+      </div>
+    </span>
+<div class="panel flex_row ">    
+  <span class="save-result_wrapp">
+    <img class="save-result_img panel_item" src="./img/saveResult.png" alt="">
+  </span>
+    <span class="pause-audio flex_row ">
+      <img class="audio-pause panel_item" src="./img/pause.png" alt="">
+      <img class="audio-play panel_item active_audio" src="./img/play.png" alt="">
+    </span>
+</div>
+  </header>
+  <main class="main flex_row" >
+    <section class="scroodge_section">
+      <img id="click-scroodge" class="scroodge" src="./img/Scrooge.png" alt="Scroodge">
+      <img class="money-bag" src="./img/m4.png" alt="bag with money">
+    </section>
+    <section class="grid_section flex_row">
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>100</span>
+        </div>
+        <img class="img" src="./img/billy.png" alt="">
+        <img class="cage" src="./img/cage.png" alt="">
+        <button data-kind="10"   class="glow-button glow-button1">make free</button>
+      </div>
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>200</span>
+        </div>
+        <img class="img" src="./img/villi.png" alt="">
+        <img class="cage" src="./img/cage.png" alt="">
+        <button  data-kind='20' class="glow-button">make free</button>
+      </div>
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>300</span>
+        </div>
+        <img class="img" src="./img/dilli.png" alt="">  
+        <img class="cage" src="./img/cage.png" alt="">
+        <button  data-kind='30' class="glow-button">make free</button>
+      </div>
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>400</span>
+        </div>
+        <img class="img" src="./img/Ponochka.png" alt=""> 
+        <img class="cage" src="./img/cage.png" alt="">
+        <button  data-kind='40' class="glow-button">make free</button>
+      </div>
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>500</span>
+        </div>
+        <img class="img" src="./img/zig.png" alt="">   
+        <img class="cage" src="./img/cage.png" alt="">
+        <button  data-kind='50' class="glow-button">make free</button>
+      </div>
+      <div class="grid">
+        <div class="wrapp_prise">
+          <img class="price" src="./img/1.png" alt="">
+          <span>600</span>
+        </div>
+        <img class="img" src="./img/Beakley_reboot.png" alt="">  
+        <img class="cage" src="./img/cage.png" alt="">
+        <button data-kind='60' class="glow-button ended">make free</button>
+      </div>
+    </section>
+  </main>
+</section>
+<footer id="footer">
+  <div class="wrapp_footer">
+    <img src="./img/logo.png" alt="" class="img_footer">
+    <h1 class="title">the game is over</h1>
+  </div>
+</footer>
+</body>
+</html>
